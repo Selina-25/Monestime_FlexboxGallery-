@@ -1,0 +1,90 @@
+/* Basic page styling */
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f1eb;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading and introduction */
+
+header {
+    max-width: 900px;
+    margin: 20px auto 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+.intro {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, serif;
+    margin-bottom: 25px;
+}
+
+/* Flexbox image gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 250px;
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+}
+
+/* Image captions */
+
+figcaption {
+    padding: 10px 2px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Responsive design for smaller screens */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .gallery-item {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+}
